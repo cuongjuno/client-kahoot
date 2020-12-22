@@ -29,15 +29,16 @@ function SignUp(props) {
         password:stateForm.password,
       }
       
-        axios.post('http://localhost:5000/api/v1/auth/signup',formPost)
-        .then(res=>{
-          alert('Dang ky thanh cong!')
-          setisDone(true)
-        })
-        .catch(error=>{
-          console.log(error);
-          setstateError('User with this email is already exist !')
-        })
+        axios
+          .post("https://kahoott.herokuapp.com/api/v1/auth/signup", formPost)
+          .then((res) => {
+            alert("Dang ky thanh cong!");
+            setisDone(true);
+          })
+          .catch((error) => {
+            console.log(error);
+            setstateError("User with this email is already exist !");
+          });
     }
     function handleChange(e,name){
         const user={};
