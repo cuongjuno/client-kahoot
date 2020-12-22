@@ -7,7 +7,7 @@ import socketIOClient from "socket.io-client";
 import load from "../../Assests/load-circle-outline.svg";
 import PlayerQuestionOver from "./Player_Question_Over";
 import PlayerQuestions from "./Player_Questions";
-const ENDPOINT = "127.0.0.1:5000/";
+const ENDPOINT = "https://kahoott.herokuapp.com:3000/";
 
 function Player(props) {
   const [socket, setSocket] = useState(socketIOClient(ENDPOINT));
