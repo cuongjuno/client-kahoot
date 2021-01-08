@@ -10,7 +10,7 @@ import logo from "../../assets/logo.svg";
 import listKahoot from "./listKahoot.json";
 import socketIOClient from "socket.io-client";
 import { db, storage } from "../../firebase";
-const ENDPOINT = "https://kahoott.herokuapp.com:5000/";
+const ENDPOINT = 'https://kahoott.herokuapp.com:20037/';
 function Game(props) {
   const [state, setState] = useState({
     pin: 0,
