@@ -12,7 +12,8 @@ const userReducer = (
         loading: true,
       };
     case actionTypes.USER_AUTH_SUCCESS:
-      localStorage.setItem("token", payload)
+      localStorage.setItem("token", payload);
+      localStorage.setItem('headerToken', 'Bearer '.concat(payload));
       return {
         ...state,
         isAuthenticated: true,

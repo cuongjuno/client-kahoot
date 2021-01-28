@@ -11,7 +11,7 @@ export const login = (data, history) => async (dispatch) => {
       type: actionTypes.USER_AUTH_SUCCESS,
       payload: res.data.token,
     });
-    history.push("/");
+    history.push("/home");
   } catch (error) {
     // handle error here
     alert("Login failed");

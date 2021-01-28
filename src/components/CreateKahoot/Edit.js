@@ -22,7 +22,6 @@ Main.propTypes = {};
 
 function Main(props) {
   const idKahoot = props.location.data.id;
-
   async function loadKahoot() {
     console.log("loadKahoot");
     let newData = db.collection("kahoot_2").doc(idKahoot);
@@ -36,7 +35,6 @@ function Main(props) {
         console.error("Error adding document: ", error);
       });
   }
-
   useEffect(() => {
     loadKahoot();
   }, []);

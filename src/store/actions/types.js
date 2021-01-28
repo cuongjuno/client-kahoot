@@ -5,3 +5,7 @@ export const USER_AUTH_SUCCESS = "USER_AUTH_SUCCESS";
 export const USER_AUTH_FAILED = "USER_AUTH_FAILED";
 
 export const USER_AUTH_LOGOUT = "USER_AUTH_LOGOUT";
+
+
+// export const ADD_QUES = "ADD_QUES";
+// export const UPDATE

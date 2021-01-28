@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.763cb63b.chunk.css",
+    "main.js": "/static/js/main.94e66bea.chunk.js",
+    "main.js.map": "/static/js/main.94e66bea.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c8a21426.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c8a21426.js.map",
+    "static/js/2.d5b233bf.chunk.js": "/static/js/2.d5b233bf.chunk.js",
+    "static/js/2.d5b233bf.chunk.js.map": "/static/js/2.d5b233bf.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6ca59d59b1237e91803cfc87b15e4442.js": "/precache-manifest.6ca59d59b1237e91803cfc87b15e4442.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.763cb63b.chunk.css.map": "/static/css/main.763cb63b.chunk.css.map",
+    "static/js/2.d5b233bf.chunk.js.LICENSE.txt": "/static/js/2.d5b233bf.chunk.js.LICENSE.txt",
+    "static/media/SignUp.css": "/static/media/background.fa50a921.jpg",
+    "static/media/circle.svg": "/static/media/circle.1fe185fe.svg",
+    "static/media/diamond.svg": "/static/media/diamond.8bf254a8.svg",
+    "static/media/fake2.jpg": "/static/media/fake2.e564459d.jpg",
+    "static/media/header-logo.png": "/static/media/header-logo.6a22596b.png",
+    "static/media/kahootGif_1.gif": "/static/media/kahootGif_1.d15e1e16.gif",
+    "static/media/load-circle-outline.svg": "/static/media/load-circle-outline.ae5ef5ec.svg",
+    "static/media/logo.svg": "/static/media/logo.0708a31b.svg",
+    "static/media/square.svg": "/static/media/square.bb6186a0.svg",
+    "static/media/triangle.svg": "/static/media/triangle.a690350b.svg",
+    "static/media/white-star.svg": "/static/media/white-star.aa772762.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8a21426.js",
+    "static/js/2.d5b233bf.chunk.js",
+    "static/css/main.763cb63b.chunk.css",
+    "static/js/main.94e66bea.chunk.js"
+  ]
+}

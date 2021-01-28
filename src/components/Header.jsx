@@ -6,9 +6,8 @@ import { useDispatch } from "react-redux";
 import { logout } from "../store/actions";
 import Home from "./Home";
 function Header(props) {
-  const [posAcitve, setposAcitve] = useState("home")
+  const [posAcitve, setposAcitve] = useState(props.active?props.active:'home')
   const dispatch = useDispatch();
-  var style = "active"
   function handleLogout() {
     dispatch(logout());
   }
@@ -20,19 +19,19 @@ function Header(props) {
       </a>
       <div className="collapse navbar-collapse " id="collapsibleNavbarLeft">
         <ul className="navbar-nav  mx-2 ">
-            <li className={`nav-item li-tab mx-2 ${(posAcitve=="home")&&style}`}  name="home"  onClick={(e)=>setposAcitve(e.target.name)}>
+            <li className={`nav-item li-tab mx-2 ${(posAcitve=="home")?'active':''}`}  name="home"  onClick={(e)=>setposAcitve('home')}>
             <Link className="nav-link" to="/">
               <i className="fas fa-home"></i>
               {" Home"}
             </Link>
           </li>
-          <li className={`nav-item li-tab mx-2 ${(posAcitve=="kahoot")&&style}`}  name="kahoot" onClick={(e)=>setposAcitve(e.target.name)}>
+          <li className={`nav-item li-tab mx-2 ${(posAcitve=="kahoot")?'active':''}`}  name="kahoot" onClick={(e)=>setposAcitve('kahoot')}>
             <Link className="nav-link" to="/kahoot">
               <i className="fas fa-list"></i>
               {" Kahoot"}
             </Link>
           </li>
-          <li className={`nav-item li-tab mx-2 ${(posAcitve=="report")&&style}`} name="report" onClick={(e)=>setposAcitve(e.target.name)}>
+          <li className={`nav-item li-tab mx-2 ${(posAcitve=="report")?'active':''}`} name="report" onClick={(e)=>setposAcitve('report')}>
             <a className="nav-link" href="#">
               <i className="fas fa-chart-line"></i>
               {" Report"}

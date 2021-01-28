@@ -3,7 +3,7 @@ import "./playerover.css"
 function Player_Question_Over(props) {
   var style = {
     backgroundColor: "rgb(102, 191, 57)",
-    height: "88vh",
+    height: "75vh",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
@@ -11,7 +11,7 @@ function Player_Question_Over(props) {
   };
   var style2 = {
     backgroundColor: "rgb(255, 51, 85)",
-    height: "88vh",
+    height: "75vh",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",

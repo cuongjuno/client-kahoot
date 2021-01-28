@@ -1,0 +1,138 @@
+.bg-custom {
+    background-color: rgb(255 255 255);
+}
+.navbar {
+    height: 56px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+}
+.navbar-brand {
+    padding: 0 1.5rem 0 0.5rem;
+}
+.nav-item a {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    font-family: 'Montserrat';
+    color: rgb(51, 51, 51);
+    margin: 0px 1rem 0px 0px;
+    padding: 0px 0.5rem;
+}
+.nav-item {
+    position: relative;
+}
+.nav-item img, .dropdown img {
+    margin: 0px 0.5rem 0px 0px;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+    color: rgb(70, 23, 143);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(51, 51, 51);
+}
+
+li.nav-item::before {
+    content: '';
+    width: 0;
+    position: absolute;
+    top: 42px;
+    left: 0.5rem;
+    transition: width 0.3s;
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    border-bottom: 3px solid rgb(70, 23, 143);
+    opacity: 0;
+}
+li.nav-item p{
+    display: inline;
+}
+.nav-item:hover::before {
+    width: calc(100% - 1.5rem);
+    opacity: 1;
+    border-bottom: 3px solid #1368ce;
+}
+.nav-item.active::before {
+    width: calc(100% - 1.5rem);
+    opacity: 1;
+}
+.nav-item.active:hover::before {
+    width: calc(100% - 1.5rem);
+    opacity: 1;
+    border-bottom: 3px solid rgb(70, 23, 143);
+}
+.dropdown .btn{
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+.dropdown .btn:hover{
+    background-color: rgb(242, 242, 242);
+}
+.dropdown-menu p {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    position: relative;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+    margin-bottom: 0.24rem;
+    align-self: flex-end;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.dropdown-menu a {
+    font-weight: 500;
+}
+.dropdown--click {
+    border-radius: 5px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+}
+.dropdown--click:hover {
+    background-color: rgb(242, 242, 242);
+}
+.dropdown__user {
+    border-radius: 50%;
+    background-color: rgb(242, 242, 242);
+}
+.btn-custom {
+    width: initial;
+    margin: 0px;
+    border: 0px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: bottom;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px -4px inset;
+    background: rgb(19, 104, 206);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    min-width: 42px;
+    min-height: 42px;
+    padding: 0px 16px 4px;
+    position: relative;
+    line-height: 38px;
+
+    min-width: 6.25rem;
+    margin-right: 1rem;
+}
+.btn-custom:hover {
+    min-height: 40px;
+    margin-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgb(18, 96, 190);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px -2px inset;
+}
+.x{
+    width: 119px;
+    height: 42px;
+    background-color: transparent;
+    position: absolute;
+    cursor: pointer;
+}

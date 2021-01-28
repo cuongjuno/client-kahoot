@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Landing.css";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import Kwizz from "../../assets/logo.svg";
+import Logo from "../../assets/logo.svg";
 import Stars from "../animations/Stars";
 import Player from "./Player";
 function Player_Room(props) {
@@ -32,13 +32,13 @@ function Player_Room(props) {
       {!toggle ? (
         <div className="landing-wrapper">
           <div className="logo-container">
-            <img src={Kwizz} alt="Kwizz logo" className="logo" />
+            <img src={Logo} alt="Kahoot logo" className="logo" />
           </div>
           <div className="player-input-wrapper">
             <input
               type="number"
               value={pin}
-              placeholder="Kwizz! PIN"
+              placeholder="Kahoot! PIN"
               onChange={handleSetPin}
               className="input-user"
             />
@@ -50,7 +50,7 @@ function Player_Room(props) {
       ) : (
         <div className="landing-wrapper">
           <div className="logo-container">
-            <img src={Kwizz} alt="Kwizz logo" className="logo" />
+            <img src={Logo} alt="Kahoot logo" className="logo" />
           </div>
           <div className="player-input-wrapper">
             <input

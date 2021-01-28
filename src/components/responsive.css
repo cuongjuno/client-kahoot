@@ -1,0 +1,40 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.8px) {
+    .navbar-nav {
+        display: none;
+    }
+    .btn-custom {
+        display: none !important;
+    }
+    .navbar-brand {
+        padding: 0;
+        margin-right: 0;
+    }
+    .btn-menu {
+        display: block !important;
+    }
+    .btn-create {
+        display: block !important;
+        border: none;
+        width: auto;
+        color: white;
+        background: rgb(19, 104, 206);
+        border-radius: 0.25rem;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media  (max-width: 991.98px) {
+    li.nav-item p {
+        display: none !important;
+    }
+    .dropdown {
+        display: none;
+    }
+    .infor-player h4{
+        margin-bottom: 5px !important;
+    }
+        .infor-player h2{
+        margin-top: 0 !important;
+    }
+}

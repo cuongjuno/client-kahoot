@@ -29,6 +29,9 @@
   width: 100%;
   display: flex;
 }
+.create input, .header-create input, .create textarea, .header-create textarea{
+  outline: none;
+}
 .main-create {
   width: 84%;
   height: 100%;

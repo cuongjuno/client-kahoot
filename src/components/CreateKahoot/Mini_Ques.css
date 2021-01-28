@@ -32,6 +32,10 @@
     border-color: rgb(204, 204, 204);
     border-image: initial;
 }
+.border-img img{
+    width: 100%;
+    height: 57.35px;
+}
 .show-linhtinh{
     width: 30px;
     text-align: center;
@@ -49,7 +53,7 @@
     margin: 1px;
     border-width: 1px;
     border-style: solid;
-    border-color: rgb(229, 229, 229);
+    border-color: rgb(107 10 10);
     border-image: initial;
     border-radius: 0.125rem;
 }

@@ -6,15 +6,9 @@
     /* background-color: #F2F2F2; */
 }
 .top-bar{
-    position: fixed;
-    right:0px;
-    left: 0px;;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height:3.5rem;
-    margin-top: 16vh;
-    margin-left: 36vw;
+    position: absolute;
+    top: -15px;
+    left: -210px;
 }
 .top-bar .img-fluid{
     width: 170px;
@@ -59,7 +53,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
-.container{
+.container-login{
 
     height: 100%;
     font-family: 'Numans', sans-serif;
